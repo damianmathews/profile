@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Damian Mathews">
+    <meta name="description" content="This site is about my fantastic friend, Peter Griffin from Family Guy">
+    <meta name="keywords" content="Peter, TV, Fox, Friend, Show">
+    <title>Peter Griffin</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Peter Griffin, a TV Icon</h1>
+        <p>Peter Griffin is the lovable, goofy dad of the Griffin family in Family Guy, known for his big heart and even bigger sense of humor.</p>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Section 1: Peter's Antics -->
+        <section>
+            <h2>Peter's Antics</h2>
+            <article>
+                <p>Peter's antics often involve wild schemes and outlandish adventures, which always add a hilarious twist to life in the Griffin household.</p>
+            </article>
+        </section>
+
+        <!-- Section 2: Peter's Humor -->
+        <section>
+            <h2>Peter's Humor</h2>
+            <article>
+                <p><strong>Peter's humor</strong> is bold and goofy, often catching people off guard with its randomness, but <em>it's his carefree attitude</em> that makes it funny.</p>
+            </article>
+        </section>
+
+        <!-- Section 3: Peter's Family Members -->
+        <section>
+            <h3>Peter's Family Members</h3>
+            <article>
+                <ol>
+                    <li>Chris, Meg, and Stewie (his kids)</li>
+                    <li>Lois (his wife)</li>
+                    <li>Brian (his dog)</li>
+                </ol>
+            </article>
+        </section>
+
+        <!-- Section 4: Funny Quotes from Peter -->
+        <section>
+            <h3>Funny Quotes from Peter</h3>
+            <article>
+                <ul>
+                    <li>"Lois, if I'm not back in five minutes... wait longer!"</li>
+                    <li>"I'm not fat, I'm just big-boned... and fat."</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Links Section -->
+        <section>
+            <h3>Related Links</h3>
+            <p>Check out more about <a href="https://www.fox.com/family-guy/">Family Guy on Fox</a> or read more about <a href="https://en.wikipedia.org/wiki/Peter_Griffin">Peter Griffin on Wikipedia</a>.</p>
+        </section>
+
+        <!-- Images Section -->
+        <section>
+            <h3>Peter Griffin's Gallery</h3>
+            <img src="https://example.com/peter1.jpg" alt="Peter Griffin image 1">
+            <img src="https://example.com/peter2.jpg" alt="Peter Griffin image 2">
+            <img src="https://example.com/peter3.jpg" alt="Peter Griffin image 3">
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Damian Mathews is an avid Family Guy fan who attends the University of Miami Herbert Business School.</p>
+    </footer>
+
+    <!-- Comment Example -->
+    <!-- This is a basic profile page about Peter Griffin for an intro coding class -->
+
+</body>
+</html>
