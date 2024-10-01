@@ -35,13 +35,13 @@
         }
 
         /* Nav Bar Styling */
-        nav {
+        .navbar {
             background-color: #87cefa; /* Lighter blue nav bar */
             padding: 10px 0;
             text-align: center;
         }
 
-        nav a {
+        .nav-link {
             color: white;
             text-decoration: none;
             margin: 0 15px;
@@ -49,7 +49,7 @@
             transition: color 0.3s ease;
         }
 
-        nav a:hover {
+        .nav-link:hover {
             color: #ff6347; /* Change color on hover to tomato */
         }
 
@@ -60,7 +60,7 @@
             margin: 0 auto;
         }
 
-        main h2 {
+        .section-content h2 {
             color: #333;
             font-size: 1.8em;
             margin-top: 20px;
@@ -76,15 +76,27 @@
             font-size: 1.2em;
         }
 
+        /* Class for the quote section */
+        .quote-section {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
         /* Image Gallery */
-        section img {
+        .gallery-section {
+            margin-top: 30px;
+        }
+
+        .gallery-img {
             width: 30%;
             margin: 10px;
             border: 3px solid #ddd;
             transition: transform 0.2s ease;
         }
 
-        section img:hover {
+        .gallery-img:hover {
             transform: scale(1.05); /* Zoom effect on hover */
         }
 
@@ -105,11 +117,11 @@
                 font-size: 1.5em;
             }
 
-            nav a {
+            .nav-link {
                 margin: 0 10px;
             }
 
-            section img {
+            .gallery-img {
                 width: 100%;
                 margin: 10px 0;
             }
@@ -120,10 +132,10 @@
 
     <!-- Header Section -->
     <header>
-        <nav>
-            <a href="#section1">Peter's Antics</a>
-            <a href="#section2">Peter's Humor</a>
-            <a href="#imagegallery">Gallery</a>
+        <nav class="navbar">
+            <a href="#section1" class="nav-link">Peter's Antics</a>
+            <a href="#section2" class="nav-link">Peter's Humor</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
         </nav>
         <h1>Peter Griffin, a TV Icon</h1>
         <p><u>Peter Griffin is the lovable, goofy dad</u> of the Griffin family in Family Guy, known for his big heart and even bigger sense of humor.</p>
@@ -132,14 +144,14 @@
     <!-- Main Section -->
     <main>
         <!-- Section 1: Peter's Antics -->
-        <section>
-            <h2 id="section1">Peter's Antics</h2>
+        <section id="section1" class="section-content">
+            <h2>Peter's Antics</h2>
             <p>Peter's antics often involve wild schemes and outlandish adventures, which always add a hilarious twist to life in the Griffin household.</p>
         </section>
 
         <!-- Section 2: Peter's Humor -->
-        <section>
-            <h2 id="section2">Peter's Humor</h2>
+        <section id="section2" class="section-content">
+            <h2>Peter's Humor</h2>
             <p><strong>Peter's humor</strong> is bold and goofy, often catching people off guard with its randomness, but <em>it's his carefree attitude</em> that makes it funny.</p>
         </section>
 
@@ -154,7 +166,7 @@
         </section>
 
         <!-- Section 4: Funny Quotes from Peter -->
-        <section>
+        <section class="quote-section">
             <h3>Funny Quotes from Peter</h3>
             <ul>
                 <li>"Lois, if I'm not back in five minutes... wait longer!"</li>
@@ -168,12 +180,12 @@
             <p>Check out more about <a href="https://www.fox.com/family-guy/">Family Guy on Fox</a> or read more about <a href="https://en.wikipedia.org/wiki/Peter_Griffin">Peter Griffin on Wikipedia</a>.</p>
         </section>
 
-        <!-- Images Section -->
-        <section id="imagegallery">
+        <!-- Image Gallery Section -->
+        <section id="gallery" class="gallery-section">
             <h3>Peter Griffin's Gallery</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/en/c/c2/Peter_Griffin.png" alt="Peter Griffin image 1">
-            <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/peter-griffin-family-guy.jpg" alt="Peter Griffin image 2">
-            <img src="https://www.looper.com/img/gallery/12-times-when-peter-griffin-proved-hes-not-a-family-guy/intro-1667831599.jpg" alt="Peter Griffin image 3">
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/c2/Peter_Griffin.png" alt="Peter Griffin image 1" class="gallery-img">
+            <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/peter-griffin-family-guy.jpg" alt="Peter Griffin image 2" class="gallery-img">
+            <img src="https://www.looper.com/img/gallery/12-times-when-peter-griffin-proved-hes-not-a-family-guy/intro-1667831599.jpg" alt="Peter Griffin image 3" class="gallery-img">
         </section>
     </main>
 
